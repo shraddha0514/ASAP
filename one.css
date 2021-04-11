@@ -1,0 +1,62 @@
+body{
+    /* background-image: url("https://media2.giphy.com/media/13USt1URETlUFG/giphy.gif"); */
+}
+.py-24 {
+    padding-top: 0rem;
+    padding-bottom: 6rem;
+}
+
+
+.two {
+    color: rgba(250, 172, 3, 0.815);
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 1px;
+    margin: 122px;
+    margin-top: 50px;
+    /* box-shadow: 4px 12px 33px rgb(179, 15, 179); */
+    display: inline-block;
+    align-items: center;
+    width: 230px;
+    text-align: center;
+    align-self: center;
+    box-sizing: border-box;
+    position: relative;
+    animation: aj1;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    /* background-image: url(https://media2.giphy.com/media/13USt1URETlUFG/giphy.gif); */
+    
+}
+/* @keyframes aj1 {    
+    from{
+box-shadow:3px 3px 44px yellow;
+    }
+    to{
+        
+box-shadow:4px 4px 44px rgba(117, 31, 16, 0.795);
+    }
+    to{
+        box-shadow: 4px 12px 44px rgb(179, 15, 179);
+    }
+    
+} */
+.two:hover{
+    color: rgba(32, 179, 118, 0.74);
+    box-shadow: 3px 3px 444px yellow;
+    
+
+}
+.btn1{
+    width: 150px;
+    border-radius: 12px;
+    background-color: rgb(187, 197, 144);
+    text-shadow: 3px rgb(8, 8, 8);
+    padding: 0rem;
+}
+.btn1:hover{
+    color: rgb(0, 0, 0);
+}
+.start{
+    color: rgb(134, 21, 134);
+}

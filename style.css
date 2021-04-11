@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* background-color: rgb(188, 157, 218); */
+    /* background-image: url("ironman1.jpg"); */
+    /* background-color: rgb(245, 245, 245); */
+    
+}
+body{
+    /* background-color: rgb(184 226 248); */
+    /* background-image: url("https://images.bewakoof.com/original/iron-man-of-war-half-sleeve-t-shirt-avl-men-s-printed-t-shirts-220650-1584415927.jpg");
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed;   */
+    /* background-attachment: scroll;    */
+    /* background-image: url("https://media2.giphy.com/media/13USt1URETlUFG/giphy.gif"); */
+    color: rgb(93 86 114);
+    /* font-family: 'Langar', cursive;           */
+    position: relative;
+    
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFEr1qKSAguSs73IIWa76U9euIGKpX0tyGWw&usqp=CAU"); */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7PnWChziSArbKfO5t-2mIklIyVY0MhMQyCg&usqp=CAU"); */
+    /* background-repeat: no-repeat; */
+    background-size:100%; 
+}
+
+#aj{
+    margin: 10px -24px;
+}
+#aj img {
+    width: 342px;
+    /* opacity: 0.5; */
+    border-radius: 20px;
+    height: 236px;
+    margin: -27px 653px;
+    /* clip-path: polygon(100% 0, 0 55%, 100% 92%); */
+}
+.aj img:hover{
+    background-color: transparent;
+}
+
+        
+
+:root{
+    --navbr-height:59px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: center; */  
+}
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar::before{
+    content:"" ;
+    /* background-color: rgb(14, 158, 62); */
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+    z-index: -1;
+    opacity: 0.4
+
+    
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: flex;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: purple;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(192, 26, 54); */
+    
+    
+}
+#services p {
+    width: 800px;
+    color: crimson;
+}
+#home1{
+   border-radius: 12px; 
+   padding: 0px;
+   margin: 12px;
+    color: rgb(15, 15, 15);
+    font-family: 'Langar', cursive; 
+    /* box-shadow: 2px 3px 44px red; */
+    
+    
+}
+#home2{
+   border-radius: 12px; 
+   padding: 0px;
+   margin: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Langar', cursive; 
+    /* box-shadow: 2px 3px 44px red; */
+    
+    
+ }
+ #home3{
+    border-radius: 12px; 
+   padding: 0px;
+   margin: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Langar', cursive; 
+    /* box-shadow: 2px 3px 44px red; */
+    
+    
+ }
+ #home4{
+   border-radius: 12px; 
+   padding: 0px;
+   margin: 12px;
+   font-family: 'Langar', cursive;
+   /* box-shadow: 2px 3px 44px red; */
+    color: rgb(0, 0, 0)
+    
+    
+    
+ }
+ #home5{
+    border-radius: 12px; 
+    padding: 0px;
+    margin: 12px;
+     color: rgb(3, 3, 3);
+     font-family: 'Langar', cursive;    
+     /* box-shadow: 2px 3px 44px red; */
+     
+     
+  }
+  #home6{
+    border-radius: 12px; 
+    padding: 0px;
+    margin: 12px;
+     color: rgb(0, 0, 0);
+     font-family: 'Langar', cursive; 
+     /* box-shadow: 2px 3px 44px red;    */
+     
+     
+  }
+  #home7{
+    border-radius: 12px; 
+    padding: 0px;
+    margin: 12px;
+     color: rgb(0, 0, 0);
+     font-family: 'Langar', cursive; 
+     /* box-shadow: 2px 3px 44px red;    */
+     
+
+  }
+  #home7:hover{
+    color: rgb(6, 8, 139);
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     
+     
+     
+  }
+ #home2:hover{
+     color: rgb(6, 8, 139);
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     
+     
+ }
+ #home3:hover{
+    color: rgb(10, 25, 114);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+#home4:hover{
+    color: rgb(2, 23, 92);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    
+    
+}
+#home1:hover{
+    color: rgb(50, 9, 146);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    
+    
+}
+#home5:hover{
+    color: rgb(2, 23, 92);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    
+    
+}
+#home6:hover{
+    color: rgb(2, 23, 92);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    
+    
+}
+#home::before{
+    content:"" ;
+/* background-image: url('../img/img1.png') ;  */
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+    z-index: -1;
+    opacity: 0.8
+}
+#home h1{
+    color: rgb(175, 21, 21);
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+.btn{
+    width: 200px;
+    border-radius: 12px;
+    background-color: rgb(102, 214, 121);
+    text-shadow: 3px rgb(63, 39, 119);
+    font-family: 'Langar', cursive;
+}
+.btn:hover{
+    color: tomato;
+    background-color: transparent;
+}
+#services{
+    margin: 34px;
+    display: flex;
+text-align: center;
+justify-content: center;
+
+
+
+}
+#services .box{
+    border: 2px solid black;
+    border-radius: 12px;
+}
+h1{
+    color: rgb(202, 52, 114);
+   text-shadow: 2px  rgb(165, 144, 144);
+    
+}
+.symbol p{
+    text-shadow: 2px  rgb(204, 183, 126);
+    
+}
+.symbol p:hover{
+    color: rgb(8, 6, 4);
+    
+}
+* {box-sizing: border-box;}
+        
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+img, video {
+max-width: 15%;
+height: auto;
+padding: 0%;
+}
